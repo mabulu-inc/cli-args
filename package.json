@@ -1,0 +1,31 @@
+{
+  "name": "cli-args",
+  "version": "1.0.0",
+  "description": "helper wrapper of command-line-args and command-line-usage",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "author": "Mabulu, Inc.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mabulu-inc/cli-args.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "command-line-args": "^5.0.2",
+    "command-line-usage": "^5.0.5",
+    "ramda": "^0.25.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "jest": "^23.3.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "coverage"
+  }
+}
